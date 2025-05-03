@@ -108,22 +108,6 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
   {
-    id: 'chart-maps',
-    title: 'Chart',
-    type: 'group',
-    icon: 'icon-charts',
-    children: [
-      {
-        id: 'apexChart',
-        title: 'ApexChart',
-        type: 'item',
-        url: 'apexchart',
-        classes: 'nav-item',
-        icon: 'feather icon-pie-chart'
-      }
-    ]
-  },
-  {
     id: 'pages',
     title: 'Pages',
     type: 'group',
@@ -152,33 +136,6 @@ export const NavigationItems: NavigationItem[] = [
             breadcrumbs: false
           }
         ]
-      },
-      {
-        id: 'sample-page',
-        title: 'Sample Page',
-        type: 'item',
-        url: '/sample-page',
-        classes: 'nav-item',
-        icon: 'feather icon-sidebar'
-      },
-      {
-        id: 'disabled-menu',
-        title: 'Disabled Menu',
-        type: 'item',
-        url: 'javascript:',
-        classes: 'nav-item disabled',
-        icon: 'feather icon-power',
-        external: true
-      },
-      {
-        id: 'buy_now',
-        title: 'Buy Now',
-        type: 'item',
-        icon: 'feather icon-book',
-        classes: 'nav-item',
-        url: 'https://codedthemes.com/item/datta-able-angular/',
-        target: true,
-        external: true
       }
     ]
   }
